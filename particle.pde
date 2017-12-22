@@ -1,3 +1,8 @@
+// アルゴリズム参考URL : https://github.com/keijiro/DFNoiseTest
+// 技術参考URL : https://wgld.org/d/webgl/w071.html
+// 技術参考URL : https://forum.processing.org/two/discussion/1071/point-clouds-in-processing-2-1-with-opengl
+// Processingのコード、シェーダ等は全て自作です
+
 final int num_particle_sqrt = 512; // 描画するパーティクルの数の平方根
 final int perl_mat_size_sqrt = 32; // パーリンノイズ画像の解像度の平方根
 final float perl_frequency = 3.0f; // パーリンノイズの周波数
@@ -21,11 +26,6 @@ PShape index_shape; // パーティクル描画シェーダの頂点テクスチ
 // ノイズ視覚化用
 PGraphics view_noise_mat;
 PShader view_noise_sd;
-
-// アルゴリズム参考URL : https://github.com/keijiro/DFNoiseTest
-// 技術参考URL : https://wgld.org/d/webgl/w071.html
-// 技術参考URL : https://forum.processing.org/two/discussion/1071/point-clouds-in-processing-2-1-with-opengl
-// Processingのコード、シェーダ等は全て自作です
 
 void setup() {
   // ウィンドウ生成
