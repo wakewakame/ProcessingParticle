@@ -1,6 +1,6 @@
 # Processing Particle
 
-![サンプル](https://raw.githubusercontent.com/wakewakame/ProcessingParticle/master/demo.gif "サンプル")
+![サンプル](demo.gif)
 
 ### 概要
 
